@@ -2,3 +2,8 @@
   box-sizing: border-box;
   transition: all ease 0.2s;
 }
+
+body {
+  background-color: #0c0c0c;
+  font-family: 'Roboto', sans-serif;
+}

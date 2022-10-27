@@ -1,11 +1,15 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
+import './assets/css/reset.css';
+import './assets/css/styles.css';
+import MainPage from './pages/Main';
+
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<h1>Hello World</h1>} />
+        <Route path="/" element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );
