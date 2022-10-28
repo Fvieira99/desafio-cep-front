@@ -5,7 +5,7 @@ const API = axios.create({
 });
 
 function getAddress(cep) {
-  return API.get(`/cep/${cep}`);
+  return API.post('/cep', { cep });
 }
 
 const apiService = {
