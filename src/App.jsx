@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import './assets/css/reset.css';
 import './assets/css/styles.css';
-import MainPage from './pages/Main';
+import MainPage from './pages/MainPage';
 
 export default function App() {
   return (
