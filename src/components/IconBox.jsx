@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const IconBox = styled.div`
-  width: 50px;
+  min-width: 50px;
   height: 50px;
 
   display: flex;

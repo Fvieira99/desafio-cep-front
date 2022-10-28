@@ -4,8 +4,8 @@ const API = axios.create({
   baseURL: 'http://localhost:5000',
 });
 
-async function getAddress(cep) {
-  await API.post('/cep', { cep });
+function getAddress(cep) {
+  return API.get(`/cep/${cep}`);
 }
 
 const apiService = {

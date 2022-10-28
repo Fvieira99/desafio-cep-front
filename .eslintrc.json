@@ -11,6 +11,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    "react-prop-types": []
+    "react/prop-types": 0
   }
 }
